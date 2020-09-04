@@ -15,9 +15,40 @@ BACKEND:
     Mongodb
     Hosting on Heroku
     Mongoose
+    Deployed on Heroku
 
 
 ```
+
+### Installation methods
+
+To quickly setup into /usr/local/lib/heroku and /usr/local/bin/heroku, run this script (script requires sudo and not Windows compatible):
+
+### `curl https://cli-assets.heroku.com/install.sh | sh`
+
+Terminal command:
+
+### `heroku login`
+
+### `cd my-project/`
+
+### `git init`
+
+### `heroku git:remote -a <name-of-heroku-app-here>`
+
+### `$ git add .`
+
+### `$ git commit -am "make it better"`
+
+```shell
+
+heroku logs --tail
+
+```
+
+### `$ git push heroku master`
+
+### `heroku run npm install`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

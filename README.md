@@ -36,12 +36,10 @@ git commit -am "make it better"
 
 heroku logs --tail
 
+git push heroku master
+heroku run npm install
+
 ```
-
-### `$ git push heroku master`
-
-### `heroku run npm install`
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

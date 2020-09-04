@@ -5,18 +5,16 @@ FRONTEND:
     Firebase hosting
     Material UI
     Flexbox
-
-3rd party Ticker
+    3rd party Ticker
     Scroll snap
 
 BACKEND:
     node.js
     Express.js Server
     Mongodb
-    Hosting on Heroku
     Mongoose
+    Hosting on Heroku
     Deployed on Heroku
-
 
 ```
 
@@ -28,19 +26,13 @@ To quickly setup into /usr/local/lib/heroku and /usr/local/bin/heroku, run this 
 
 Terminal command:
 
-### `heroku login`
-
-### `cd my-project/`
-
-### `git init`
-
-### `heroku git:remote -a <name-of-heroku-app-here>`
-
-### `$ git add .`
-
-### `$ git commit -am "make it better"`
-
 ```shell
+heroku login
+cd my-project/
+git init
+heroku git:remote -a <name-of-heroku-app-here>
+git add .
+git commit -am "make it better"
 
 heroku logs --tail
 
